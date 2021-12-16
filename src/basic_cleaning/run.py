@@ -4,6 +4,7 @@ An example of a step using MLflow and Weights & Biases
 """
 import argparse
 import logging
+import tempfile
 
 import pandas as pd
 import wandb
